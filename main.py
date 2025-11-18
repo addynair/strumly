@@ -159,6 +159,9 @@ while True:
                 current_mode = MODE_MENU
 
         else:
+            #Heading
+            cv2.putText(frame, f"Practice: {selected_chord}", (20, 50),
+            cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255, 255, 255), 3)
             # Draw chord image
             chord_path = os.path.join("assets/chords", f"{selected_chord}.png")
             img = cv2.imread(chord_path)
