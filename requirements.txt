@@ -2,6 +2,5 @@ opencv-python
 pandas
 numpy
 scikit-learn
-playsound
 mediapipe 
 pygame
